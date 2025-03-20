@@ -510,11 +510,11 @@ font-family:"Montserrat",sans-serif;
     margin-right: 5px;
 }
 .filled {
-    background-image: url("leadconveer/images/starr.svg");
+    background-image: url("../images/starr.svg");
 }
 
 .half {
-    background-image: url("leadconveer/css/halfst.svg");
+    background-image: url("../css/halfst.svg");
   
 }
 .star.half {
