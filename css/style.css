@@ -28,19 +28,26 @@ overflow-x: hidden;
     border-radius: 0 0 30px 30px ;
     margin-bottom: 120px;
 }
+.nav__wrapper{
+    max-width: 1920px;
+    margin: 0 auto;
+ height: 82px;
+    background-color: rgba(45, 45, 45, 1);   
+  border-radius: 0 0 30px 30px;  
+  margin-bottom: 60px;
+}
+
 .nav {
-    height: 82px;
-    background-color: rgba(45, 45, 45, 1);
+   
     display: flex;
     justify-content: space-between;
     align-items: center;
-   border-radius: 0 0 30px 30px;
-   margin-bottom: 60px;
+   
+  
+   
 
 }
-.logo {
-    padding-left: 70px;
-}
+
 .header__menu {
     display: flex;
     gap: 60px;
@@ -58,7 +65,7 @@ color: rgba(192, 192, 192, 1);
 .header__menu__left {
     display: flex;
     gap: 12px;
-    padding-right: 30px;
+    margin-right: -30px;
 }
 .header__menu--phone {
     color: #fff;
@@ -1328,8 +1335,10 @@ padding: 20px;
     flex-direction: column;
     justify-content: space-between;
     gap: 10px;
-    margin: 0 auto;
+    margin: 25px auto;
 cursor: pointer;
+
+
 }
 .btn span{
     height: 3px;
