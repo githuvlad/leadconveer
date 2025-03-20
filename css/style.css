@@ -116,32 +116,17 @@ position: relative;
 .header__left-imgg{
     width: 100%;
 }
-.header__right::before {
-    content: "";
-    background-image: url("/images/star.svg");
+.header__left-start{
     position: absolute;
-    right: 700px;
-    bottom: 80px;
-    left: -25px;
-    top: 0;
-    background-repeat: no-repeat;
-    /* background-size: cover; */
-    background-position: bottom center;
-   
+    right:-27px;
+    top: 95px;
 }
-.header__right::after {
-    content: "";
-    background-image: url("/images/star.svg");
+.header__left-start-bottom{
     position: absolute;
-  right: -30px;
-    bottom: 335px;
-    left: 700px;
-    top: 0;
-    background-repeat: no-repeat;
-    /* background-size: cover; */
-    background-position: bottom center;
-   
+    bottom: 78px;
+    left: -20px;
 }
+
 .bottom__list {
     display: flex;
     gap: 20px;
@@ -474,8 +459,7 @@ margin-bottom: 20px;
 .rewiews__title {
     margin-bottom: 20px;
 }
-.title {
-}
+
 .rewiews__text {
     max-width: 791px;
     margin-bottom: 18px;
@@ -519,11 +503,11 @@ font-family:"Montserrat",sans-serif;
     margin-right: 5px;
 }
 .filled {
-    background-image: url("/images/starr.svg");
+    background-image: url("leadconveer/images/starr.svg");
 }
 
 .half {
-    background-image: url("css/halfst.svg");
+    background-image: url("leadconveer/css/halfst.svg");
   
 }
 .star.half {
@@ -562,7 +546,7 @@ margin-bottom: 20px;
 .reviews__video-iframe {
     background-color:rgba(45, 45, 45, 1) ;
     border-radius:40px ;
-    background-image: url('/images/player.png');
+    background-image: url('leadconveer/images/player.png');
     background-repeat: no-repeat;
     background-position: center;
 height: 320px;
@@ -586,10 +570,7 @@ margin-bottom: 12px;
     justify-content: center;
    
 }
-.texnologi__link {
-  
- 
-}
+
 .texnologi__items-link{
     max-width: 760px;
 }
