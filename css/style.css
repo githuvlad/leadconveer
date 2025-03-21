@@ -65,7 +65,7 @@ color: rgba(192, 192, 192, 1);
 .header__menu__left {
     display: flex;
     gap: 12px;
-    margin-right: -30px;
+
 }
 .header__menu--phone {
     color: #fff;
