@@ -553,7 +553,7 @@ margin-bottom: 20px;
 .reviews__video-iframe {
     background-color:rgba(45, 45, 45, 1) ;
     border-radius:40px ;
-    background-image: url('../leadconveer/images/player.png');
+    background-image: url('../images/player.png');
     background-repeat: no-repeat;
     background-position: center;
 height: 320px;
@@ -1163,12 +1163,7 @@ padding: 20px;
         width: 80%;
         margin: 20px auto;
     }
-    .header__right::before{
-        display: none;
-    }
-    .header__right::after{
-        display: none;
-    }
+ 
     .bottom__list{
         flex-wrap: wrap;
         justify-content: center;
@@ -1691,6 +1686,10 @@ width: 100%;
     .reviews__rating{
         
         justify-content: space-between;
+    }
+    .header__left-start,
+    .header__left-start-bottom{
+        display: none;
     }
 }
 
